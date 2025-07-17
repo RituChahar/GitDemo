@@ -1,0 +1,8 @@
+qaTeam\seleniumTestFrameWork\PageObjects\CheckoutPage.class
+qaTeam\seleniumTestFrameWork\PageObjects\ConfirmationPage.class
+qaTeam\seleniumTestFrameWork\PageObjects\CartPage.class
+qaTeam\seleniumTestFrameWork\PageObjects\OrdersPage.class
+qaTeam\seleniumTestFrameWork\AbstractComponents\AbstractComponent.class
+qaTeam\seleniumTestFrameWork\PageObjects\CardDetails.class
+qaTeam\seleniumTestFrameWork\PageObjects\LandingPage.class
+qaTeam\seleniumTestFrameWork\PageObjects\ProductCatalogue.class

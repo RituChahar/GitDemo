@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Root suite tag with parallel test execution enabled -->
+<suite parallel="tests" name="Suite">
+
+  <!-- Group filtering (optional) - Only tests tagged with 'pruchase' group will run -->
+  <groups>
+    <run>
+      <include name="pruchase" />
+    </run>
+  </groups>
+
+  <!-- TestNG listener class for reporting, logging, etc. -->
+  <listeners>
+    <listener class-name="qaTeam.seleniumTestFrameWork.TestComponents.Listeners" />
+  </listeners>
+
+  <!-- First test case block for Submit Order functionality -->
+  <test thread-count="5" name="submit order">
+    <classes>
+      <class name="qaTeam.seleniumTestFrameWork.SubmitOrderTest" />
+    </classes>
+  </test>
+
+  <!-- Second test case block for Error Validation functionality -->
+  <test thread-count="5" name="error validation">
+    <classes>
+      <class name="qaTeam.seleniumTestFrameWork.ErrorValidations" />
+    </classes>
+  </test>
+
+</suite>
