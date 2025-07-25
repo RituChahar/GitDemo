@@ -28,7 +28,7 @@ public class TestGit {
 		System.out.println("apple");
 		System.out.println("banana");
 	
-		
+		System.out.println("banana");
 	}
 	
 	
