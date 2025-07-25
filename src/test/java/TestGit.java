@@ -31,5 +31,14 @@ public class TestGit {
 		
 	}
 	
+	@Test
+	public void testTwoGames() {
+	
+		System.out.println("chess");
+		System.out.println("tabletennis");
+		System.out.println("cricket");
+	
+		
+	}
 	
 }
